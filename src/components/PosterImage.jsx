@@ -2,8 +2,8 @@ export default function PosterImage(props) {
   return (
     <div className="w-full h-full">
       <img 
-        src={props.src} 
-        alt={props.alt} 
+        src={props.imageSource} 
+        alt={props.imageAlt} 
         className="w-full h-full object-cover block"
       />
     </div>
